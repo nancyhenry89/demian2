@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$('.banner').css('height',window.innerHeight)
+$('.homeBanner').css('height',window.innerHeight)
   $('.grid').masonry({
     // options
     itemSelector: '.grid-item',
@@ -60,6 +60,25 @@ $('.banner').css('height',window.innerHeight)
   $("#history").show();
   $("#mission").hide();
   $("#why").hide();
+
+//portfolio info box toggle
+$('.showInfo').click(function(){
+	$('.portfolio-list .row>div').removeClass('infoVisible')
+	$(this).parents('.row>div').addClass('infoVisible');
+	$('.info-popup ').show()
+});
+$('.openInfo').click(function(){
+	$('.info-popup ').show()
+});
+$('.info-popup .close-btn').click(function(){
+	$('.info-popup').hide();
+	$('.portfolio-list .row>div').removeClass('infoVisible')
+});
+
+//nav active class toggle
+  $('li.active').removeClass('active');
+  $('a[href="' + location.pathname.split('/').pop() + '"]').closest('li').addClass('active'); 
+
 
 });
 

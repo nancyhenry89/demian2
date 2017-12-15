@@ -17,7 +17,7 @@
 }
 
 </style>
-<div class="banner">
+<div class="banner homeBanner">
   <div class="container-fluid banner-container">
 
     <div class="owl-carousel home-carousel">

@@ -2,7 +2,7 @@
 
 <style>
 .banner img{
-  height:450px;
+
 }
 
 .news-date-text{
@@ -16,9 +16,9 @@
 
 </style>
 
-<div class="banner">
+<div class="banner portfolioBanner">
   <div class="container-fluid banner-container">
-    <img src="img/home-banner.jpg" />
+    <img src="img/portofolioBanner.png" />
   </div>
 </div>
 
@@ -29,7 +29,7 @@
       <h1>Portfolio</h1>
     </div>
 
-    <div class="filters">
+    <div class="filters portfolioFilters">
       <ul class="parent">
         <li>
           <ul class="child">
@@ -100,14 +100,15 @@
 
 </style>
 <div class="portfolio-list">
-  <div class="owl-carousel" id="portfolio-page">
+  <div class="owl-carousel portPgae" id="portfolio-page">
     <div>
       <div class="container">
-        <div class="row">
+        <div class="row firstRow">
           <div class="col-lg-4">
             <div class="portfolio-project">
+              <a class="openInfo"><i class="fa fa-info" aria-hidden="true"></i></a>
               <div class="portfolio-image">
-                <img src="img/portfolio-page.jpg" />
+                <img src="img/port1.png" />
               </div>
               <div class="portfolio-overlay">
                 <div class="overlay-container">
@@ -121,7 +122,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a class="showInfo">
                         <img src="img/potfolio-icon2.png" />
                       </a>
                     </li>
@@ -132,8 +133,9 @@
           </div>
           <div class="col-lg-4">
             <div class="portfolio-project">
+              <a class="openInfo"><i class="fa fa-info" aria-hidden="true"></i></a>
               <div class="portfolio-image">
-                <img src="img/portfolio-page.jpg" />
+                <img src="img/port2.png" />
               </div>
               <div class="portfolio-overlay">
                 <div class="overlay-container">
@@ -147,7 +149,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a class="showInfo">
                         <img src="img/potfolio-icon2.png" />
                       </a>
                     </li>
@@ -158,6 +160,7 @@
           </div>
           <div class="col-lg-4">
             <div class="portfolio-project">
+              <a class="openInfo"><i class="fa fa-info" aria-hidden="true"></i></a>
               <div class="portfolio-image">
                 <img src="img/portfolio-page.jpg" />
               </div>
@@ -173,7 +176,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a class="showInfo">
                         <img src="img/potfolio-icon2.png" />
                       </a>
                     </li>
@@ -203,9 +206,10 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row secondRow">
           <div class="col-lg-8">
             <div class="portfolio-project">
+              <a class="openInfo"><i class="fa fa-info" aria-hidden="true"></i></a>
               <div class="portfolio-image">
                 <img src="img/portfolio2.jpg" height="350px;" />
               </div>
@@ -221,7 +225,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a class="showInfo">
                         <img src="img/potfolio-icon2.png" />
                       </a>
                     </li>
@@ -232,8 +236,9 @@
           </div>
           <div class="col-lg-4">
             <div class="portfolio-project">
+              <a class="openInfo"><i class="fa fa-info" aria-hidden="true"></i></a>
               <div class="portfolio-image">
-                <img src="img/portfolio-page.jpg" />
+                <img src="img/port5.png" />
               </div>
               <div class="portfolio-overlay">
                 <div class="overlay-container">
@@ -247,7 +252,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a class="showInfo">
                         <img src="img/potfolio-icon2.png" />
                       </a>
                     </li>
@@ -261,9 +266,10 @@
     </div>
     <div>
       <div class="container">
-        <div class="row">
+        <div class="row firstRow">
           <div class="col-lg-4">
             <div class="portfolio-project">
+              <a class="openInfo"><i class="fa fa-info" aria-hidden="true"></i></a>
               <div class="portfolio-image">
                 <img src="img/portfolio-page.jpg" />
               </div>
@@ -279,7 +285,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a class="showInfo">
                         <img src="img/potfolio-icon2.png" />
                       </a>
                     </li>
@@ -290,6 +296,7 @@
           </div>
           <div class="col-lg-4">
             <div class="portfolio-project">
+              <a class="openInfo"><i class="fa fa-info" aria-hidden="true"></i></a>
               <div class="portfolio-image">
                 <img src="img/portfolio-page.jpg" />
               </div>
@@ -305,7 +312,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a class="showInfo">
                         <img src="img/potfolio-icon2.png" />
                       </a>
                     </li>
@@ -316,6 +323,7 @@
           </div>
           <div class="col-lg-4">
             <div class="portfolio-project">
+              <a class="openInfo"><i class="fa fa-info" aria-hidden="true"></i></a>
               <div class="portfolio-image">
                 <img src="img/portfolio-page.jpg" />
               </div>
@@ -331,7 +339,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a class="showInfo">
                         <img src="img/potfolio-icon2.png" />
                       </a>
                     </li>
@@ -361,9 +369,10 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row secondRow">
           <div class="col-lg-8">
             <div class="portfolio-project">
+              <a class="openInfo"><i class="fa fa-info" aria-hidden="true"></i></a>
               <div class="portfolio-image">
                 <img src="img/portfolio2.jpg" height="350px;" />
               </div>
@@ -379,7 +388,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a class="showInfo">
                         <img src="img/potfolio-icon2.png" />
                       </a>
                     </li>
@@ -390,6 +399,7 @@
           </div>
           <div class="col-lg-4">
             <div class="portfolio-project">
+              <a class="openInfo"><i class="fa fa-info" aria-hidden="true"></i></a>
               <div class="portfolio-image">
                 <img src="img/portfolio-page.jpg" />
               </div>
@@ -405,7 +415,7 @@
                       </a>
                     </li>
                     <li>
-                      <a>
+                      <a class="showInfo">
                         <img src="img/potfolio-icon2.png" />
                       </a>
                     </li>
